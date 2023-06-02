@@ -3,9 +3,17 @@
 There is a subtle difference in colors between Atari Grand Challange
 and OpenAI gym.
 
+Atari Grand Challange is an openly accesible collection of behavioural cloning data gathered from various Atari games.
+OpenAI gym is, among others, wrapper around the same games.
+Turns out that the images are not the same! They have differences that changes outputs of neural nets, but are not perceptible by bare eye.
+
+Here's the comparison:
+
 ![images before processing](color_comparison.png)
 
-After typical processing
+See? No difference, right?
+
+After typical processing:
 
 ![images before processing](processed_comparison.png)
 
